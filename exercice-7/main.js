@@ -6,6 +6,8 @@ for (let i = 0; i < nombres.length; i++) {
 
 	if (DIVIDENDE % diviseur === 0) {
 		estUnfacteur = true;
+	} else {
+		estUnfacteur = false;
 	}
 
 	if (estUnfacteur) {
